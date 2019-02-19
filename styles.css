@@ -1,0 +1,13 @@
+.ui.borderless.topmenu.menu {
+  background-color: #0078ae;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.left.item.img {
+  width: 100px;
+}
+
+a.item {
+  color: white;
+}
