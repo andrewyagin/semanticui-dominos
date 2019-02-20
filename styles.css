@@ -6,20 +6,51 @@
   font-size: 17px;
 }
 
-.ui.body {
+div.bottomtext {
+  margin-left: 425px;
+}
 
+div.ui.action.input {
+  padding: 50px;
+  width: 50%;
+  align-content: center;
+  margin-left: 325px;
 }
-div.column.img {
-  max-width: 50%;
+
+div.column {
+  float: snap;
 }
+
+div.sub.header {
+  color: #aaaaaa;
+}
+
 div.text {
+  color: #aaaaaa;
+}
+
+
+i.bars.icon {
+  color: #aaaaaa;
+}
+
+i.dropdown.icon {
   color: #aaaaaa;
 }
 
 i.bars.icon {
   color: #aaaaaa;
 }
+
+
 body {
   background-color: #f7f7f7;
 }
+
+img {
+  align-content: center;
+  margin-left: 400px;
+  margin-right: 500px;
+}
+
 
