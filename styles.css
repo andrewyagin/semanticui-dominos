@@ -1,13 +1,25 @@
 .ui.borderless.topmenu.menu {
-  background-color: #0078ae;
-  padding-left: 200px;
-  padding-right: 200px;
+  box-shadow: none;
+  border: none;
+  background-color: #f7f7f7;
+  margin-top: 25px;
+  font-size: 17px;
 }
 
-.left.item.img {
-  width: 100px;
+.ui.body {
+
+}
+div.column.img {
+  max-width: 50%;
+}
+div.text {
+  color: #aaaaaa;
 }
 
-a.item {
-  color: white;
+i.bars.icon {
+  color: #aaaaaa;
 }
+body {
+  background-color: #f7f7f7;
+}
+

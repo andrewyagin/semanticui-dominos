@@ -8,37 +8,65 @@
   <script type="text/javascript"
           src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
   <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
 
 <div class="ui borderless topmenu menu">
-  <div class="ui container">
-    <div class="left item"><img src="dominoslogo.png" alt=""></div>
-    <a class="item">Home</a>
-    <div class="ui dropdown fitted item">
-      <div class="text">About Us</div>
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <div class="item">Getting Here/Parking</div>
-        <div class="item">Catering and Private Events</div>
-        <div class="item">Upcoming Events</div>
+  <div class="ui right floated container">
+    <div class="ui dropdown right fitted item">
+      <div class="text">Privacy, Simplified
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <div class="item">
+            <h2 class="ui header">
+              Get Our App & Extension
+              <div class="sub header">Protect Your Data on Every Device.</div>
+            </h2>
+          </div>
+          <div class="item">Subscribe To our Privacy Crash Course</div>
+        </div>
       </div>
     </div>
-    <a class="item">St. Patrick's Day</a>
     <div class="ui dropdown fitted item">
-      <div class="text">Menus</div>
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <div class="item">Weekly Specials</div>
-        <div class="item">Lunch Menu</div>
-        <div class="item">Dinner Menu</div>
-        <div class="item">Desserts</div>
+      <div class="text"><i class="lightblue twitter icon"></i>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <div class="item"><i class="orange reddit icon"></i></div>
+          <div class="item"><i class="black world icon"></i></div>
+        </div>
       </div>
     </div>
-    <a class="item">Bar</a>
-    <a class="item"><i class="search icon"></i></a>
+    <div class="ui dropdown fitted item">
+      <div class="text">
+        <i class="bars icon"></i>
+        <div class="menu">
+          <div class="item"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
+<div class="ui body">
+  <div class="ui two column centered grid">
+    <div class="column">
+      <img src="DuckDuckGo-Logo-1024x295.png" alt="">
+    </div>
+    <div class="column">
+      <div class="ui labeled input">
+        <input type="text" placeholder="">
+        <div class="ui label">
+          <i class="search icon"></i></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $('.ui.dropdown')
+      .dropdown()
+  ;
+</script>
 </body>
 </html>
