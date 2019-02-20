@@ -6,20 +6,53 @@
   font-size: 17px;
 }
 
-.ui.body {
+.column1 {
+  float: right;
+  align-content: center;
+}
 
+.column2 {
+  float: left;
+  align-content: center;
 }
-div.column.img {
-  max-width: 50%;
+
+div.ui.action.input {
+  width: 200%;
 }
+div.column {
+  float: snap;
+}
+
+div.sub.header {
+  color: #aaaaaa;
+}
+
 div.text {
+  color: #aaaaaa;
+}
+
+
+i.bars.icon {
+  color: #aaaaaa;
+}
+
+i.dropdown.icon {
   color: #aaaaaa;
 }
 
 i.bars.icon {
   color: #aaaaaa;
 }
+
+
+
 body {
   background-color: #f7f7f7;
 }
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
 
